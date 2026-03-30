@@ -1,0 +1,15 @@
+# 通用忽略
+.DS_Store
+*.log
+*.tmp
+*.swp
+__pycache__/
+venv/
+.env
+
+# 安全相关忽略
+*.pem
+*.key
+id_rsa*
+docker-data/
+tmp-env/
